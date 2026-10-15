@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2130" viewBox="0 0 1400 2130" role="img" aria-labelledby="title desc">
+  <title id="title">Email list welcome flow</title>
+  <desc id="desc">A vector redraw of the Klaviyo email-list welcome flow: a 10-minute wait, welcome email, 2-day wait, purchase split, product education for those who have not purchased, another 2-day wait, then reviews, FAQ and recommendations. The other branch ends.</desc>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.25" fill="#dfe5e0"/></pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1d2a24" flood-opacity="0.08"/></filter>
+    <style>
+      .ui{font-family:Arial,Helvetica,sans-serif;fill:#202722}.muted{font-family:Arial,Helvetica,sans-serif;fill:#657169}
+      .card{fill:#fff;stroke:#dfe6e1;stroke-width:2}.line{stroke:#bfcac2;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1400" height="2130" fill="#f8faf8"/><rect width="1400" height="2130" fill="url(#dots)" opacity=".7"/>
+
+  <!-- Trigger -->
+  <g filter="url(#shadow)"><rect class="card" x="450" y="55" width="500" height="150" rx="22"/></g>
+  <circle cx="505" cy="99" r="23" fill="#59645d"/><path d="M509 79l-15 24h12l-3 18 18-27h-13z" fill="#fff"/>
+  <text class="ui" x="548" y="106" font-size="22" font-weight="700">Trigger</text>
+  <text class="ui" x="490" y="151" font-size="21">When someone is added to Email List</text>
+  <rect x="490" y="167" width="152" height="27" rx="13.5" fill="#eef1ef"/>
+  <text class="muted" x="566" y="186" text-anchor="middle" font-size="14">Profile filters</text>
+
+  <!-- Wait 10 min -->
+  <path class="line" d="M700 205v35"/><circle cx="700" cy="260" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="700" y="269" text-anchor="middle" font-size="27">+</text>
+  <g filter="url(#shadow)"><rect class="card" x="540" y="295" width="320" height="78" rx="18"/></g>
+  <circle cx="580" cy="334" r="17" fill="#edf1ee"/><circle cx="580" cy="334" r="9" fill="none" stroke="#68736c" stroke-width="2.5"/><path d="M580 328v7l5 3" fill="none" stroke="#68736c" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="ui" x="613" y="342" font-size="22" font-weight="700">Wait 10 min</text>
+
+  <!-- Welcome email -->
+  <path class="line" d="M700 373v36"/><circle cx="700" cy="432" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="700" y="441" text-anchor="middle" font-size="27">+</text><path class="line" d="M700 454v26"/>
+  <g filter="url(#shadow)"><rect class="card" x="450" y="480" width="500" height="205" rx="20"/><rect x="450" y="480" width="9" height="205" rx="4" fill="#6b9b8e"/></g>
+  <rect x="485" y="511" width="34" height="30" rx="7" fill="#e9f3ef"/><path d="M492 519h20v14h-20zM492 519l10 8 10-8" fill="none" stroke="#4c8b7a" stroke-width="2"/>
+  <text class="ui" x="540" y="533" font-size="22" font-weight="700">Welcome Email</text>
+  <text class="ui" x="485" y="585" font-size="20">A calmer home starts here — enjoy 10...</text>
+  <rect x="485" y="621" width="145" height="28" rx="14" fill="#f0f2f0"/><text class="muted" x="557" y="640" text-anchor="middle" font-size="14">Smart sending</text>
+  <rect x="823" y="621" width="92" height="28" rx="14" fill="#f3f4f2"/><circle cx="840" cy="635" r="5" fill="#68736c"/><text class="muted" x="874" y="640" text-anchor="middle" font-size="14">Draft</text>
+  <text class="muted" x="454" y="715" font-size="18">ϟ Day 0</text>
+
+  <!-- Wait 2 days -->
+  <path class="line" d="M700 685v37"/><circle cx="700" cy="744" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="700" y="753" text-anchor="middle" font-size="27">+</text><path class="line" d="M700 766v25"/>
+  <g filter="url(#shadow)"><rect class="card" x="540" y="791" width="320" height="78" rx="18"/></g>
+  <circle cx="580" cy="830" r="17" fill="#edf1ee"/><circle cx="580" cy="830" r="9" fill="none" stroke="#68736c" stroke-width="2.5"/><path d="M580 824v7l5 3" fill="none" stroke="#68736c" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="ui" x="613" y="838" font-size="22" font-weight="700">Wait 2 days</text>
+
+  <!-- Split -->
+  <path class="line" d="M700 869v36"/><circle cx="700" cy="927" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="700" y="936" text-anchor="middle" font-size="27">+</text><path class="line" d="M700 949v25"/>
+  <g filter="url(#shadow)"><rect class="card" x="450" y="974" width="500" height="82" rx="18"/></g>
+  <path d="M490 1005l11 11 11-11m-22 0v24h22v-24" fill="none" stroke="#91a098" stroke-width="2.5"/>
+  <text class="ui" x="535" y="1025" font-size="23" font-weight="700">Split #1</text>
+
+  <!-- Branch paths -->
+  <path class="line" d="M700 1056v43M700 1099H390v38M700 1099h310v38"/>
+  <g filter="url(#shadow)"><rect class="card" x="70" y="1137" width="640" height="108" rx="18"/><rect class="card" x="790" y="1137" width="440" height="78" rx="18"/></g>
+  <circle cx="105" cy="1171" r="16" fill="#edf1ee"/><text class="muted" x="105" y="1177" text-anchor="middle" font-size="13" font-weight="700">1</text>
+  <text class="ui" x="140" y="1179" font-size="20" font-weight="700">No purchase after 2 days</text>
+  <text class="muted" x="105" y="1215" font-size="17">Has Placed Order zero times since start...</text>
+  <circle cx="825" cy="1176" r="16" fill="#edf1ee"/><text class="muted" x="825" y="1182" text-anchor="middle" font-size="13" font-weight="700">2</text>
+  <text class="ui" x="860" y="1184" font-size="20" font-weight="700">Everyone else</text>
+
+  <!-- No-purchase path: product education -->
+  <path class="line" d="M390 1245v30"/><circle cx="390" cy="1297" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="390" y="1306" text-anchor="middle" font-size="27">+</text><path class="line" d="M390 1319v24"/>
+  <g filter="url(#shadow)"><rect class="card" x="70" y="1343" width="640" height="205" rx="20"/><rect x="70" y="1343" width="9" height="205" rx="4" fill="#6b9b8e"/></g>
+  <rect x="105" y="1374" width="34" height="30" rx="7" fill="#e9f3ef"/><path d="M112 1382h20v14h-20zM112 1382l10 8 10-8" fill="none" stroke="#4c8b7a" stroke-width="2"/>
+  <text class="ui" x="160" y="1396" font-size="22" font-weight="700">Product Education</text>
+  <text class="ui" x="105" y="1448" font-size="20">Find the scent that feels like home</text>
+  <rect x="105" y="1484" width="145" height="28" rx="14" fill="#f0f2f0"/><text class="muted" x="177" y="1503" text-anchor="middle" font-size="14">Smart sending</text>
+  <rect x="543" y="1484" width="92" height="28" rx="14" fill="#f3f4f2"/><circle cx="560" cy="1498" r="5" fill="#68736c"/><text class="muted" x="594" y="1503" text-anchor="middle" font-size="14">Draft</text>
+  <text class="muted" x="74" y="1578" font-size="18">ϟ Day 2</text>
+
+  <!-- Other branch ends -->
+  <path class="line" d="M1010 1215v35"/><circle cx="1010" cy="1272" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="1010" y="1281" text-anchor="middle" font-size="27">+</text><path class="line" d="M1010 1294v31"/>
+  <rect x="984" y="1325" width="52" height="29" rx="14" fill="#e8ece9"/><text class="muted" x="1010" y="1345" text-anchor="middle" font-size="14" font-weight="700">End</text>
+
+  <!-- Wait 2 days before review email -->
+  <path class="line" d="M390 1548v37"/><circle cx="390" cy="1607" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="390" y="1616" text-anchor="middle" font-size="27">+</text><path class="line" d="M390 1629v24"/>
+  <g filter="url(#shadow)"><rect class="card" x="220" y="1653" width="340" height="78" rx="18"/></g>
+  <circle cx="260" cy="1692" r="17" fill="#edf1ee"/><circle cx="260" cy="1692" r="9" fill="none" stroke="#68736c" stroke-width="2.5"/><path d="M260 1686v7l5 3" fill="none" stroke="#68736c" stroke-width="2.5" stroke-linecap="round"/>
+  <text class="ui" x="293" y="1700" font-size="22" font-weight="700">Wait 2 days</text>
+
+  <!-- Reviews + FAQ + Recommendations -->
+  <path class="line" d="M390 1731v31"/><circle cx="390" cy="1784" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="390" y="1793" text-anchor="middle" font-size="27">+</text><path class="line" d="M390 1806v15"/>
+  <g filter="url(#shadow)"><rect class="card" x="70" y="1821" width="640" height="205" rx="20"/><rect x="70" y="1821" width="9" height="205" rx="4" fill="#6b9b8e"/></g>
+  <rect x="105" y="1852" width="34" height="30" rx="7" fill="#e9f3ef"/><path d="M112 1860h20v14h-20zM112 1860l10 8 10-8" fill="none" stroke="#4c8b7a" stroke-width="2"/>
+  <text class="ui" x="160" y="1873" font-size="21" font-weight="700">Reviews + FAQ +</text>
+  <text class="ui" x="160" y="1901" font-size="21" font-weight="700">Recommendations</text>
+  <text class="ui" x="105" y="1940" font-size="19">A scent for every moment</text>
+  <rect x="105" y="1971" width="145" height="28" rx="14" fill="#f0f2f0"/><text class="muted" x="177" y="1990" text-anchor="middle" font-size="14">Smart sending</text>
+  <rect x="543" y="1971" width="92" height="28" rx="14" fill="#f3f4f2"/><circle cx="560" cy="1985" r="5" fill="#68736c"/><text class="muted" x="594" y="1990" text-anchor="middle" font-size="14">Draft</text>
+  <text class="muted" x="74" y="2056" font-size="18">ϟ Day 4</text>
+  <path class="line" d="M390 2026v42"/><circle cx="390" cy="2090" r="22" fill="#fff" stroke="#d5ded7" stroke-width="2"/><text class="ui" x="390" y="2099" text-anchor="middle" font-size="27">+</text>
+</svg>
