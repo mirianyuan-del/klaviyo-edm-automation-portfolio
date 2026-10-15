@@ -108,7 +108,6 @@ Shopify 前台订阅邮件的用户同步到该 Klaviyo List，并作为 Welcome
 
 ![Post-purchase Flow](assets/01_post_purchase_flow.svg)
 
-![Post-purchase Klaviyo Flow](assets/05_post_purchase_klaviyo_flow.png)
 
 ![Candle Care Email](assets/07_candle_care_email.png)
 
